@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-align: center;
+}
+.button{
+    height: 30px;
+    width: 90px;
+    background: #60d83c;
+    padding: 4.5px 9px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 0px;
+}
+ .button:hover {
+    background: #62ac4c;
+    color: #ccc;
+    }
+div.menu{
+    margin-top: 17%;
+}
