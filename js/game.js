@@ -1,23 +1,24 @@
-const { COPYFILE_EXCL } = require("constants")
-
-
-
-
 function Start(){
-    
-    setInterval(Game(),9)
-}
+document.addEventListener("DOMContentLoaded",()=>{
+
+
+setInterval(Game(), 60)
 function Game(){
+    console.log("HEllo")
     var canvas = document.getElementById("game")
+    var tron,x,y
+    var pos = {x: x, y: y}
     if(canvas.getContext){
     var ctx = canvas.getContext('2d')
-
-    ctx.beginPath();
-   if(addEventListener("keydown","W")){
-        tron = ctx.fillRect(10,10,10,10)
-        
-    }
-
+    pos.x=1
+    tron = pos.x
+    console.log(1)
     }
     
+    
+}
+
+
+})
+
 }
